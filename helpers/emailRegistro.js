@@ -17,7 +17,7 @@ const emailRegistro = async(datos) => {
         to: email, 
         subject: 'Comprueba tu cuenta',
         text: 'Comprueba tu cuenta en SIX PET SHOP!!!1',
-        html:`<p>Hola: ${nombre}, comprueba tu cuenta en Six Pet Shop </p>
+        html:`<p>Hola: ${nombre}, comprueba tu cuenta en Six Pet Shop :D </p>
             <p>Casi todo está listo, entra al siguiente enlace para autenticar tu cuenta
             <a href="${process.env.FRONTEND_URL}/confirmar/${token}"> Comprobar cuenta </a></p>
 
