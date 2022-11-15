@@ -1,7 +1,9 @@
 import mongoose from 'mongoose';
 import second from 'mongoose'
 
+
 // conectar la base de datos
+
 
 const conectarDB = async () => {
     try {
