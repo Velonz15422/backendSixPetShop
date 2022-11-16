@@ -1,6 +1,8 @@
 import { text } from 'express';
 import nodemailer from 'nodemailer'
 
+//email registro
+
 const emailRegistro = async(datos) => {
     const transporter  = nodemailer.createTransport({
         host: process.env.EMAIL_HOST,

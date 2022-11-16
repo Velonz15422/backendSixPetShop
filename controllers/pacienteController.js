@@ -1,5 +1,7 @@
 import Paciente from "../models/Paciente.js";
 
+//Paciente
+
 const agregarPaciente = async(req, res) => {
 
     const paciente = new Paciente(req.body)
