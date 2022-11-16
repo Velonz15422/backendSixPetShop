@@ -1,6 +1,7 @@
 import jwt from "jsonwebtoken"
 
 //GenerarJWT
+ 
 
 const generarJWT = (id) => {
     return jwt.sign({id}, process.env.JWT_SECRET, {
